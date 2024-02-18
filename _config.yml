@@ -21,10 +21,10 @@ repository               : "LBG21/lbg21.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar.png"
   name             : "BANGGUO LI"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Vision, 3D Computer Vision"
+  bio              : "Undergraduate student of Tsinghua Universtiy, interested in Computer Vision, Machine Learning"
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
