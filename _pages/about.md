@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Personal Website of Bangguo Li."
+title: "Hello, I'm Bangguo!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am Bangguo Li, a Senior student major in Computer Science and Technology. I am currently under the guidance of Prof. Li Yi, Institute for Interdisciplinary Information Sciences, Tsinghua University. 
+I am Bangguo Li, a junior student major in Computer Science and Technology, Tsinghua University.. I am currently under the guidance of Prof. Li Yi, Institute for Interdisciplinary Information Sciences, Tsinghua University. 
 
 My research interests include machine learning, computer vision, 3D computer vision , 3D reconstruction and 3D AIGC.
 
