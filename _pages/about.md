@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ":wave: Hello, I'm Bangguo!"
+title: "👋Hello, I'm Bangguo!"
 author_profile: true
 redirect_from: 
   - /about/
