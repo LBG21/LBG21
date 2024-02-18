@@ -1,6 +1,5 @@
 ---
 title: 'VR Gaussian'
-date: 2024 Fall
 github_url: "https://github.com/LBG21/vr-gaussian/tree/master"
 ---
 
