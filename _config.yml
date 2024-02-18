@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "BANGGUO LI"
   pronouns         : # example: "she/her"  
-  bio              : "computer vision, 3D"
+  bio              : "Computer Vision, 3D Computer Vision"
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
@@ -267,7 +267,13 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
