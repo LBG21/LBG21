@@ -3,18 +3,18 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
-title                    : "BANGGUO LI"
+locale                   : "en-US"
+title                    : "Bangguo Li"
 title_separator          : "-"
-name                     : &name "BANGGUO LI"
-description              : &description "personal description"
+name                     : &name "Bangguo Li"
+description              : &description "Bangguo Li, PhD candidate at Tsinghua University and researcher at LiberAI, working on robot learning and world models."
 url                      : https://lbg21.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "LBG21/lbg21.github.io"
+baseurl                  : "/LBG21" # the subpath of your site, e.g. "/blog"
+repository               : "LBG21/LBG21"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,17 +22,17 @@ repository               : "LBG21/lbg21.github.io"
 author:
   # Biographic information
   avatar           : "avatar.jpg"
-  name             : "BANGGUO LI"
-  pronouns         : # example: "she/her"  
-  bio              : "Undergraduate student of Tsinghua Universtiy, interested in Computer Vision, Machine Learning"
-  location         : "Beijing, China"
+  name             : "Bangguo Li"
+  pronouns         : # example: "she/her"
+  bio              : "PhD candidate at Tsinghua University. Researcher at LiberAI."
+  location         :
   employer         : "Tsinghua University"
   uri              : # URL
-  email            : "lbg21@mail.tsinghua.edu.cn" 
+  email            : "lbg21@mails.tsinghua.edu.cn"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=1P7T81YAAAAJ&hl=en"
   # impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -43,8 +43,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "LBG21"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   # bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -135,7 +135,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -144,8 +144,27 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
+  - files
+  - talkmap
+  - talkmap.ipynb
+  - markdown_generator
+  - WEBSITE.md
+  - docs
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/projects.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -197,26 +216,7 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
-    date: false
+collections: {}
 
 
 # Defaults
@@ -292,7 +292,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

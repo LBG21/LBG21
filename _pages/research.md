@@ -1,17 +1,55 @@
 ---
-layout: archive
+layout: single
 title: "Research"
 permalink: /research/
 author_profile: true
 ---
 
-I am Bangguo Li, a junior student in the Department of Computer Science at Tsinghua University. 
+My research focuses on world models, robot foundation models, and learning from human and robot demonstrations.
 
-My main research interests are Computer Vision and Machine Learning. 
- 
-I have one research paper currently submitted to ECCV 2024, focuing on scalable and generalizable 3D generation with small
-scale dataset tuning.
+## Selected Publications
 
-I have co-conducted research on 3D comprehension and 3D generation under the guidance of Prof. Li Yi. We have fine-tuned the foundational image diffusion model by utilizing multi-view images to achieve 3D generation. Additionally, we have developed geometric conditions guided by internal 3D representation to enhance 3D-aware consistency while maintaining the creativity of the foundational model
+\* Equal contribution. My name is shown in bold.
 
-My long-term career objective is to investigate the application of computer vision technologies in solving real-world challenges, such as in the domain of 3D AIGC.  My research goal is to explore new areas of computer vision, address significant problems, and develop innovative and effective methods that resolve crucial problems in the area of computer vision.
+### Liber-0: Emergent Zero-Shot Capabilities in Multi-Step Manipulation from 2.2 Million-Hour Human Experience
+{: #liber-0 }
+
+LiberAI Team<br>
+*LiberAI Tech Report*<br>
+[[Technical Report]](https://www.liberai.com/blog/liber0)
+
+World action modeling for zero-shot, multi-step robot manipulation through learning from human experience.
+
+### RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization
+{: #rdt2 }
+
+S. Liu\*, **B. Li\***, K. Ma\*, L. Wu\*, H. Tan, X. Ouyang, H. Su, J. Zhu.<br>
+*ICML 2026 · Co-first author*<br>
+[[Paper]](https://arxiv.org/abs/2602.03310) [[Project]](https://rdt-robotics.github.io/rdt2/) [[Code]](https://github.com/thu-ml/RDT2)
+
+Scaling handheld UMI data to a 7B vision-language-action model trained with over 10,000 hours of demonstrations, studying generalization to unseen objects, scenes, instructions, and robot embodiments.
+
+### RDT-1B: A Diffusion Foundation Model for Bimanual Manipulation
+{: #rdt-1b }
+
+S. Liu\*, L. Wu\*, **B. Li**, H. Tan, H. Chen, Z. Wang, K. Xu, H. Su, J. Zhu.<br>
+*ICLR 2025*<br>
+[[Paper]](https://arxiv.org/abs/2410.07864) [[Project]](https://rdt-robotics.github.io/rdt-robotics/) [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
+
+A 1.2B-parameter diffusion foundation model for bimanual manipulation, combining heterogeneous robot pretraining with a unified action representation and task-specific fine-tuning.
+
+### GEM: Generative Supervision Helps Embodied Intelligence
+{: #gem }
+
+R. Zhao, **B. Li**, Z. Liu, Y. Liang, J. Ye, F. Liu, D. Wu, Z. Wang, X. Yu, Y. Rao, H. Hu, J. Zhu.<br>
+*ECCV 2026*<br>
+[[Paper]](https://arxiv.org/abs/2605.28548)
+
+Depth-generation supervision for embodied vision-language pretraining and downstream manipulation through GEM-VLA.
+
+### An Atomic Skill Library Construction Method for Data-Efficient Embodied Manipulation
+{: #atomic-skills }
+
+D. Li, B. Peng, C. Li, N. Qiao, Q. Zheng, L. Sun, Y. Qin, **B. Li**, et al.<br>
+*arXiv preprint, 2025*<br>
+[[Paper]](https://arxiv.org/abs/2501.15068)
