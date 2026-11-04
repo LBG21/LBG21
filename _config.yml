@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Bangguo Li"
 title_separator          : "-"
 name                     : &name "Bangguo Li"
-description              : &description "Bangguo Li, PhD candidate at Tsinghua University and researcher at LiberAI, working on robot learning and world models."
+description              : &description "Bangguo Li, PhD candidate at Tsinghua University, working on robot learning and world models."
 url                      : https://lbg21.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/LBG21" # the subpath of your site, e.g. "/blog"
 repository               : "LBG21/LBG21"
@@ -24,7 +24,7 @@ author:
   avatar           : "avatar.jpg"
   name             : "Bangguo Li"
   pronouns         : # example: "she/her"
-  bio              : "PhD candidate at Tsinghua University. Researcher at LiberAI."
+  bio              : "PhD candidate at Tsinghua University."
   location         :
   employer         : "Tsinghua University"
   uri              : # URL
